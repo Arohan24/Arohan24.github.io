@@ -4,10 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import makeMyTale from "../../Assets/Projects/MakeMyTale.png";
 import weatherApp from "../../Assets/Projects/WeatherApp.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import razorpay from "../../Assets/Projects/razorpay.png";
+import contactUs from "../../Assets/Projects/Contact_Us.png";
+
 
 function Projects() {
   return (
@@ -45,22 +46,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={razorpay}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink=""
+              title="Razorpay PG Integration"
+              description="Dive into the seamless world of online payments with our Razorpay Integration solution. Delve into the intricacies of secure transactions and the ease of managing payments effortlessly. Our web application seamlessly combines cutting-edge technology with financial finesse, offering users a smooth and reliable platform to manage their payment needs. Experience the future of online transactions now!"
+              ghLink="https://github.com/Arohan24/Razorpay-Integration.git"
               demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={contactUs}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink=""
+              title="Contact Us"
+              description="Embark on a journey of seamless communication with our Contact Us Page Implementation using Nodemailer and Database Storage. This project showcases a straightforward yet powerful way to incorporate a Contact Us feature into your web application. Users can effortlessly submit their contact details and messages, which are securely stored in a database and simultaneously sent via email using Nodemailer."
+              ghLink="https://github.com/Arohan24/ContactUs_Nodemailer.git"
               demoLink=""
             />
           </Col>
