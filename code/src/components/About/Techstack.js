@@ -17,7 +17,7 @@ import {
   SiExpress,
   SiPostgresql,
   SiBootstrap,
-  SiMaterialui,
+  SiMui,
 } from "react-icons/si";
 
 function Techstack() {
@@ -63,7 +63,7 @@ function Techstack() {
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiMui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
