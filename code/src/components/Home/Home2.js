@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,13 +18,23 @@ function Home2() {
         LET ME <span className="purple"> INTRODUCE </span> MYSELF
       </h1>
       <p className="home-about-body">
-        Welcome! I'm passionate about weaving digital experiences using the <span className="purple"> MERN stack </span>, threading together MongoDB, Express.js, React, and Node.js. My programming journey extends beyond, with a knack for <span className="purple"> JAVA </span> and the intricacies of <span className="purple"> MySQL </span>.
+        I'm a Backend Software Engineer with 3+ years of experience designing
+        and developing enterprise applications using{" "}
+        <span className="purple"> Node.js </span>,{" "}
+        <span className="purple"> Express.js </span>,{" "}
+        <span className="purple"> MongoDB </span>, and{" "}
+        <span className="purple"> PostgreSQL </span>. I focus on REST API
+        development, scalable backend architecture, and recruitment platforms.
         <br />
         <br />
-        What truly ignites my curiosity, however, is the world of Artificial Intelligence and Machine Learning. My fascination centers on <span className="purple"> Generative AI </span>, particularly exploring the possibilities showcased by OpenAI.
+        I also work with{" "}
+        <span className="purple"> Generative AI </span> — integrating OpenAI
+        and Gemini APIs, prompt engineering, and AI-powered workflows into
+        production systems.
         <br />
         <br />
-        Join me on a journey where innovation meets functionality, and creativity intertwines with code.
+        Passionate about building reliable software and solving complex
+        engineering problems.
       </p>
     </Col>
     <Col md={4} className="myAvtar">
@@ -69,16 +78,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
